@@ -37,13 +37,18 @@ hr{
     border: 1px solid #D1D1D1;
     margin-bottom: 30px;
 }
-
 /* header styles */
-
 .header{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    background-color: #562EFF;
+    background-color: var(--dark-800);
+    padding: 10px 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.header .logo{
+
+    padding: 0 15px;
 }
 /* top players styles */
 .top-players{
