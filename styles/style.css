@@ -39,17 +39,24 @@ hr{
 }
 /* header styles */
 .header{
-    background-color: var(--dark-800);
-    padding: 10px 0;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 99;
+    background-color: #562EFF;
 }
-.header .logo{
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 26px 0px 17px 180px;
+}
+.logo a img{
+    width: 41px;
+    height: 51px;
+    padding-left: 10px;
+}
+.logo-text{
+    text-decoration: none;
+    color: rgb(247, 245, 243);
+    margin-left: 15px;
+}
 
-    padding: 0 15px;
-}
 /* top players styles */
 .top-players{
     margin-bottom: 30px;
