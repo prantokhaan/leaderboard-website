@@ -41,6 +41,12 @@ hr{
 .header{
     background-color: #562EFF;
 }
+.header-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
 .logo{
     display: flex;
     align-items: center;
@@ -56,7 +62,25 @@ hr{
     color: rgb(247, 245, 243);
     margin-left: 15px;
 }
-
+.nav{
+   align-items: center;
+   justify-content: center;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+}
+.nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-right: 70px;
+    margin-top: 30px;
+   
+}
+.nav ul li a img{
+    margin-top: -12px;
+}
 /* top players styles */
 .top-players{
     margin-bottom: 30px;
